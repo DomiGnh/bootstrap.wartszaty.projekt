@@ -1,0 +1,20 @@
+body>div.container{
+    background-color: aquamarine;
+    height: 1000px;
+    
+}
+
+.item{
+    height: 300px;
+    background-color: greenyellow;
+}
+
+.item:nth-child(2n){
+    height: 300px;
+    background-color: aqua;
+}
+
+.item:nth-child(3n){
+    height: 300px;
+    background-color:bisque;
+}
