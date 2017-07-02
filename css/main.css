@@ -147,6 +147,32 @@ a.btn-blue:hover, .btn-blue:hover{
 
 /*services stop*/
 
+#portfolio{
+    height: 150vh;
+    background-color: #f7f7f7;
+}
+
+#portfolio h1{
+    margin-top: 150px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333 ;
+    font-size: 3em;
+}
+
+#portfolio .container .foto {
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+#portfolio .container .foto img {
+    width: 350px;
+    height: 300px;
+}
+
+
 
 
 
