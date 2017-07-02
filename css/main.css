@@ -95,18 +95,57 @@ a.btn-blue:hover, .btn-blue:hover{
 
 /*sekcja services*/
 
-
+#services{
+    height: 90vh;
+}
 
 #services .services-caption h1{
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 700;
     margin-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333 ;
 }
 
 #services .services-caption h2{
     font-size: 1em;
 }
 
+
+#services .icon{
+    margin-top: 80px;
+}
+
+#services .fa{
+    
+    background-color: #0ed8d6;
+    font-size: 3em;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px solid #0ed8d6;
+    color: #fff;
+    padding: 20px;
+}
+
+#services .fa:hover{
+    transform: rotate(360deg);
+    transition: all .3s;
+    background-color: #fff;
+    color: #0ed8d6;
+}
+
+#services h3{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333 ;
+}
+
+#services p{
+    padding: 20px 40px;
+}
+
+/*services stop*/
 
 
 
