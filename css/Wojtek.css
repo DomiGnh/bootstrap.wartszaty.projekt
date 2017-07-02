@@ -6,8 +6,11 @@ body{
     margin: 0;
     font-family: 'Roboto Slab', serif;
     color: #777;
-    font-style: italic;
+   
     
+}
+p{
+    font-style: italic;
 }
 
 h1{
@@ -199,18 +202,48 @@ a.btn-blue:hover, .btn-blue:hover{
     opacity: 1;
 }
 
+#portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask .fa{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 3em;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
 
+#portfolio .single-portfolio-item h1{
+    padding-top: 10px;
+}
+#portfolio .single-portfolio-item p{
+    padding-bottom: 25px;
+    
+}
 
+#portfolio-item-1{
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
 
+#portfolio-item-2{
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
 
+#portfolio-item-3{
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
 
+#portfolio-item-4{
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
 
+#portfolio-item-5{
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
 
-
-
-
-
-
+#portfolio-item-6{
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
 
 /*sekcja portfolio end*/
 
