@@ -61,6 +61,17 @@ a.btn-blue:hover, .btn-blue:hover{
 }
 
 
+#main-nav .scroll{
+    background-color: rgba(14, 216, 214, 0.85);
+}
+
+#main-nav .scroll a{
+    color: #fff;
+}
+
+#main-nav .scroll a:hover{
+    color: #777;
+}
 /*main styles end*/
 
 /*main styles nav*/
@@ -144,11 +155,11 @@ a.btn-blue:hover, .btn-blue:hover{
 
 /*sekcja services end*/
 
+/*sekcja portfolio start*/
 
 
 
-
-
+/*sekcja portfolio end*/
 
 
 
