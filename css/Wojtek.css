@@ -247,13 +247,37 @@ a.btn-blue:hover, .btn-blue:hover{
 
 /*sekcja portfolio end*/
 
+/*sekcja team start*/
+
+#team .team-caption{
+    margin-bottom: 40px;
+    margin-top: 50px;
+    
+}
 
 
+#team .team .col-sm-4 img{
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+}
 
 
+#team .team-description{
+    
+    padding: 60px;
+}
 
-
-
+#team .icons .fa{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background-color: #222;
+    color: #fff;
+    margin-left: 7px;
+    font-size: 1.2em;
+}
 
 
 
