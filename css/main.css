@@ -93,6 +93,20 @@ a.btn-blue:hover, .btn-blue:hover{
 }
 
 
+/*sekcja services*/
+
+
+
+#services .services-caption h1{
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+#services .services-caption h2{
+    font-size: 1em;
+}
+
 
 
 
