@@ -265,27 +265,71 @@ a.btn-blue:hover, .btn-blue:hover{
 
 #team .team-description{
     
-    padding: 60px;
+    padding: 30px 50px 0 50px;
 }
 
 #team .icons .fa{
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     border-radius: 50%;
     background-color: #222;
     color: #fff;
     margin-left: 7px;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    transition: all .3s;
 }
+
+/*
+#team .icons a{
+    text-decoration: none;
+}
+*/
 
 #team .icons .fa:hover{
     background-color:#0ed8d6;
+    
     cursor:pointer;
 }
 
 /*sekcja team stop */
 
+
+/*sekcja contact start*/
+
+#contact{
+    height:95vh;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../img/footer/world-map.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#contact h2, #contact p{
+    color: #fff;    
+}
+  
+#contact input:not([type='submit']), #contact textarea{
+    width: 100%;
+    border: 0px solid;
+}
+
+
+#contact input, #contact textarea{
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+
+
+#contact input:not(:last-child){
+    margin-bottom: 30px;
+}
+
+#contact input[type='submit']{
+    margin-top: 30px;
+}
 
 
 
